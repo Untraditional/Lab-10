@@ -19,7 +19,10 @@ public class SelectionSort {
                 if (x[i] > x[j]) {
                     temp = x[i];
                     x[i] = x[j];
+
+
                     x[j] = temp; // needed to swap x[j] and temp around to get selection sort working
+
                 }
             } // end of inner for loop
         } // end of outer for loop
